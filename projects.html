@@ -406,16 +406,17 @@
                     <span class="project-status status-completed">Completed</span>
                     <h3>🔍 AI-Powered Code Review Agent</h3>
                     <p>
-                        Multi-agent system that analyzes pull requests for security vulnerabilities (SQL injection, XSS, hardcoded secrets), code quality issues (complexity, maintainability), and best practices violations. Features pattern-based vulnerability detection, AI-powered intelligent reviews, and automated GitHub PR commenting. Successfully detects 10+ security issue types with severity categorization (Critical/High/Medium/Low).
+                        Multi-tool security analysis system integrating industry-standard tools (Semgrep, Bandit) with custom security rules and AI-powered reviews. Analyzes pull requests for SQL injection, XSS, command injection, hardcoded secrets, insecure deserialization, and 15+ vulnerability patterns. Features custom Semgrep rules for Python/JavaScript, tool attribution showing which scanner found each issue, code quality metrics (complexity, maintainability), and automated GitHub PR commenting. Successfully detects 10 security issues using complementary scanning approaches with CWE/OWASP mapping and confidence levels.
                     </p>
                     <div class="tech-stack">
                         <span class="tech-tag">Python</span>
                         <span class="tech-tag">Claude AI</span>
+                        <span class="tech-tag">Semgrep</span>
+                        <span class="tech-tag">Bandit</span>
                         <span class="tech-tag">GitHub API</span>
                         <span class="tech-tag">Click</span>
                         <span class="tech-tag">Rich</span>
-                        <span class="tech-tag">AST Analysis</span>
-                        <span class="tech-tag">Pattern Matching</span>
+                        <span class="tech-tag">Custom Rules</span>
                     </div>
                     <div class="project-links">
                         <a href="https://github.com/bulump/code-review-agent" target="_blank" class="project-link">GitHub</a>
